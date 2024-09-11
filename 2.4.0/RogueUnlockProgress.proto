@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message RogueUnlockProgress {
+    bool finish = 9;
+    uint32 progress = 1;
+    uint32 unlock_id = 3;
+}

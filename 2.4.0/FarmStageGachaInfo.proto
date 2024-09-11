@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message FarmStageGachaInfo {
+    uint32 gacha_id = 9;
+    int64 end_time = 12;
+    int64 begin_time = 7;
+}

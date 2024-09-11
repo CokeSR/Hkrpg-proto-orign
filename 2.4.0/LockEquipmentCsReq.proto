@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message LockEquipmentCsReq {
+    bool is_protected = 9;
+    repeated uint32 equipment_id_list = 11;
+}

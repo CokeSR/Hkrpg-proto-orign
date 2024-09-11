@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "DisplayRecordType.proto";
+
+message PlayerSettingInfo {
+  bool b1 = 2;
+  bool b2 = 8;
+  bool b3 = 4;
+  bool b4 = 3;
+  bool b5 = 13;
+  bool b6 = 5;
+	DisplayRecordType display_record_type = 12;
+}

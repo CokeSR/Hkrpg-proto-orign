@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "GroupStateInfo.proto";
+
+message GroupStateChangeScNotify {
+  GroupStateInfo group_state_info = 8;
+}

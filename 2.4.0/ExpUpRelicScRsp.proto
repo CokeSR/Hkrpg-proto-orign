@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "PileItem.proto";
+
+message ExpUpRelicScRsp {
+    uint32 retcode = 3;
+    repeated PileItem return_item_list = 6;
+}

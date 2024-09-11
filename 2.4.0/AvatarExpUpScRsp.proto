@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "PileItem.proto";
+
+message AvatarExpUpScRsp {
+    uint32 retcode = 9;
+    repeated PileItem return_item_list = 12;
+}

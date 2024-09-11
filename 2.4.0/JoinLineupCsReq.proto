@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+
+import "ExtraLineupType.proto";
+import "AvatarType.proto";
+
+message JoinLineupCsReq {
+    AvatarType avatar_type = 7;
+    bool is_virtual = 3;
+    uint32 base_avatar_id = 12;
+    uint32 index = 11;
+    ExtraLineupType extra_lineup_type = 10;
+    uint32 plane_id = 5;
+    uint32 slot = 6;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "SceneBattleInfo.proto";
+
+message StartCocoonStageScRsp {
+    uint32 prop_entity_id = 15;
+    SceneBattleInfo battle_info = 6;
+    uint32 cocoon_id = 14;
+    uint32 retcode = 10;
+    uint32 wave = 1;
+}

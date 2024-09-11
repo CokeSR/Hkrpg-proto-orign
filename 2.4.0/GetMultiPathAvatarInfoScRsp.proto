@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "MultiPathAvatarInfo.proto";
+import "MultiPathAvatarType.proto";
+
+message GetMultiPathAvatarInfoScRsp {
+    uint32 retcode = 7;
+    repeated MultiPathAvatarInfo multi_path_avatar_info_list = 13;
+    map<uint32, MultiPathAvatarType> cur_avatar_path = 4;
+    repeated uint32 basic_type_id_list = 15;
+}

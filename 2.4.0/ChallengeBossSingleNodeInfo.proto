@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message ChallengeBossSingleNodeInfo {
+    uint32 DAIMOOEMHJF = 14;
+    bool BMIKMFLHMJD = 5;
+    uint32 KLJPBAAGNFN = 11;
+    bool NAGJMPMHMMC = 7;
+}

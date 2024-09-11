@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message ExchangeHcoinCsReq {
+    uint32 num = 5;
+}

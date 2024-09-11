@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message UnlockBackGroundMusicCsReq {
+    repeated uint32 unlock_ids = 3;
+}
+  

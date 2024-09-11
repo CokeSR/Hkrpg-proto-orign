@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+
+
+import "FriendOnlineStatus.proto";
+import "AssistSimpleInfo.proto";
+import "PlatformType.proto";
+
+message SimpleInfo {
+    int64 last_active_time = 10;
+    uint32 level = 8;
+    uint32 chat_bubble_id = 2;
+    FriendOnlineStatus online_status = 7;
+    repeated AssistSimpleInfo assist_simple_info = 1;
+    uint32 uid = 3;
+    bool is_banned = 5;
+    uint32 head_icon = 9;
+    PlatformType platform_type = 15;
+    string signature = 6;
+    string nickname = 13;
+}

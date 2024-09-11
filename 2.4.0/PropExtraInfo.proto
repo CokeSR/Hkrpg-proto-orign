@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "PropRogueInfo.proto";
+
+message PropExtraInfo {
+	oneof info {
+		PropRogueInfo rogue_info = 11;
+		// PropAeonInfo aeon_info = 9;
+		// PropChessInfo chess_rogue_info = 8;
+	}
+}

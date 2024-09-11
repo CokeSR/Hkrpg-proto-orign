@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "ExtraLineupType.proto";
+
+message SwapLineupCsReq {
+    uint32 src_slot = 3;
+    uint32 plane_id = 6;
+    uint32 dst_slot = 4;
+    ExtraLineupType extra_lineup_type = 11;
+    uint32 index = 7;
+    bool is_virtual = 5;
+}

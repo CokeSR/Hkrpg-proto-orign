@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "RogueBuffSource.proto";
+import "RogueActionResultData.proto";
+
+message RogueActionResult {
+    RogueBuffSource source = 11;
+    RogueActionResultData rogue_action = 4;
+}

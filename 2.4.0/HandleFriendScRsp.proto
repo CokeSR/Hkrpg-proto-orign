@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "FriendListInfo.proto";
+
+message HandleFriendScRsp {
+    bool handle_result = 9;
+    uint32 retcode = 10;
+    uint32 uid = 3;
+    FriendListInfo handle_friend_info = 11;
+}

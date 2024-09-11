@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "RogueBuff.proto";
+import "RogueRecordAvatar.proto";
+
+message RogueRecordInfo {
+    repeated RogueBuff buff_list = 15;
+    repeated uint32 rogue_miracle_list = 10;
+    repeated RogueRecordAvatar avatar_list = 6;
+}

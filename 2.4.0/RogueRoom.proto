@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "RogueRoomStatus.proto";
+
+message RogueRoom {
+	uint32 site_id = 1;
+	// uint32 MGAHHMCOGKK = 14;
+	// RogueRoomStatus GCLIKAAOKJL = 3; // GCLIKAAOKJL
+	RogueRoomStatus room_status = 10; // GCAAEMOFLDM, can be 3
+	uint32 room_id = 12;
+}

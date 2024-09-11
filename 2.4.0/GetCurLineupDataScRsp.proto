@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "LineupInfo.proto";
+
+message GetCurLineupDataScRsp {
+    uint32 retcode = 8;
+    LineupInfo lineup = 3;
+}

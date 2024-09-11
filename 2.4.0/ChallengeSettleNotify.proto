@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "ItemList.proto";
+
+message ChallengeSettleNotify {
+    ItemList reward = 9;
+    uint32 stars = 8;
+    uint32 score_two = 1;
+    uint32 challenge_id = 14;
+    bool is_win = 5;
+    uint32 challenge_score = 10;
+}

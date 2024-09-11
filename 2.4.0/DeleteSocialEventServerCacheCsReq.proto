@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message DeleteSocialEventServerCacheCsReq {
+	repeated uint32 delete_cache = 9;
+}

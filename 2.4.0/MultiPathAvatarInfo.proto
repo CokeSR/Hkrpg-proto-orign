@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+
+import "MultiPathAvatarType.proto";
+import "AvatarSkillTree.proto";
+import "EquipRelic.proto";
+
+message MultiPathAvatarInfo {
+    uint32 path_equipment_id = 9;
+    MultiPathAvatarType avatar_id = 11;
+    repeated AvatarSkillTree multi_path_skill_tree = 5;
+    repeated EquipRelic equip_relic_list = 13;
+    repeated AvatarSkillTree special_skilltree_list = 14;
+    uint32 rank = 12;
+    repeated uint32 unlocked_special_point_id_list = 15;
+}

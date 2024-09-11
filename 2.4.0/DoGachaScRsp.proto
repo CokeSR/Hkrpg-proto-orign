@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "GachaItem.proto";
+
+message DoGachaScRsp {
+    uint32 gacha_id = 10;
+    uint32 ceiling_num = 3;
+    uint32 retcode = 14;
+    uint32 gacha_num = 8;
+    repeated GachaItem gacha_item_list = 2;
+}

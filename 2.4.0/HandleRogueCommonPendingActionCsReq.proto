@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonBuffSelectResult.proto";
+import "RogueBuffRollInfo.proto";
+import "RogueMiracleSelectResult.proto";
+import "RogueBonusSelectResult.proto";
+
+message HandleRogueCommonPendingActionCsReq {
+    // times2 = 6; ???? I think? Idk, its been set to 2
+    oneof pending_action {
+        RogueCommonBuffSelectResult buff_select_result = 309;
+        RogueBuffRollInfo roll_buff = 1008;                          // could be 1134
+        RogueMiracleSelectResult miracle_select_result = 1209;      // TODO: check
+        RogueBonusSelectResult bonus_select_result = 1156;          // check as well
+    }
+}

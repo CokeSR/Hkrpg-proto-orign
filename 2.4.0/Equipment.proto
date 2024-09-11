@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+message Equipment {
+    uint32 exp = 9;
+    uint32 promotion = 1;
+    uint32 level = 13;
+    bool is_protected = 15;
+    uint32 rank = 3;
+    uint32 unique_id = 6;
+    uint32 equip_avatar_id = 4;
+    uint32 tid = 14;
+}

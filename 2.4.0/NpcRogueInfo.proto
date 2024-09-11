@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+message NpcRogueInfo {
+    uint32 rogue_npc_id = 11;
+    // unk
+    bool finish_dialogue = 9; // most likely, could be 1 or 15
+    bool JFCBEHNMGNO = 1;
+    bool CLFMCIDHJLM = 15;
+
+    uint32 dialogue_group_id = 12; // ???
+}

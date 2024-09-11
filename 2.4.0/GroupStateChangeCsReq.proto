@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "GroupStateInfo.proto";
+
+message GroupStateChangeCsReq {
+    GroupStateInfo group_info = 7;
+}

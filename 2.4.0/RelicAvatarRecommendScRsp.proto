@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message RelicAvatarRecommendScRsp {
+    repeated uint32 avatar_id_list = 10;
+    bool is_fetch_avatar_list = 1;
+    uint32 retcode = 12;
+    uint32 set_id = 8;
+}

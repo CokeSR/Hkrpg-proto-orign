@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "ChallengeBossSingleNodeInfo.proto";
+
+message ChallengeBossInfo {
+    ChallengeBossSingleNodeInfo first_node = 1;
+    ChallengeBossSingleNodeInfo second_node = 5;
+    repeated uint32 lineup1 = 11;
+    // map<uint32, JBDNIEFPHLE> MPHILJEPBDD = 3;
+    bool ACGHCDLBCGD = 14;
+    // map<uint32, BMLNHLAGLIP> GJPKHDHDCDN = 12;
+    repeated uint32 lineup2 = 2;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "AvatarType.proto";
+import "SpBarInfo.proto";
+
+message LineupAvatar {
+    AvatarType avatar_type = 12;
+    uint32 slot = 13;
+    uint32 satiety = 9;
+    uint32 hp = 2;
+    uint32 id = 11;
+    SpBarInfo sp_bar = 7;
+}

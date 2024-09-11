@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "SceneGroupRefreshType.proto";
+import "SceneEntityRefreshInfo.proto";
+
+message SceneGroupRefreshInfo {
+    uint32 state = 1;
+    uint32 group_id = 2;
+    repeated SceneEntityRefreshInfo refresh_entity = 5;
+    SceneGroupRefreshType group_refresh_type = 7;
+}

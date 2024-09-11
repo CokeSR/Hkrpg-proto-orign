@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ContentPackageData.proto";
+
+message ContentPackageGetDataScRsp {
+    ContentPackageData data = 7;
+    uint32 retcode = 3;
+}

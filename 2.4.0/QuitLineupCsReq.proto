@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "ExtraLineupType.proto";
+import "AvatarType.proto";
+
+message QuitLineupCsReq {
+    ExtraLineupType extra_lineup_type = 4;
+    uint32 index = 8;
+    AvatarType avatar_type = 12;
+    bool is_virtual = 2;
+    uint32 plane_id = 15;
+    uint32 base_avatar_id = 6;
+}

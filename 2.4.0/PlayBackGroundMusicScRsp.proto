@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message PlayBackGroundMusicScRsp {
+    uint32 play_music_id = 7;
+    uint32 retcode = 11;
+    uint32 playing_id = 10;
+}

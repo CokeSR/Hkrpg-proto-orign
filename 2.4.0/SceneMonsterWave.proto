@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "SceneMonster.proto";
+import "SceneMonsterWaveParam.proto";
+import "ItemList.proto";
+
+message SceneMonsterWave {
+    uint32 wave_id = 9;
+    repeated ItemList drop_list = 5;
+    uint32 stage_id = 8;
+    repeated SceneMonster monster_list = 12;
+    SceneMonsterWaveParam wave_param = 6;
+}

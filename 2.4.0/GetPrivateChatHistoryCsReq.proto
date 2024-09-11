@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message GetPrivateChatHistoryCsReq {
+    uint32 to_uid = 7;
+    uint32 sender_uid = 5;
+}

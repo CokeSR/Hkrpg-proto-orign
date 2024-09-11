@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message RotaterData {
+	float APDIFCCFAGG = 1;
+	uint32 group_id = 9;
+	uint32 unk_int = 13;
+}

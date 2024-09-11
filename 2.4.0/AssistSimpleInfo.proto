@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message AssistSimpleInfo {
+    uint32 avatar_id = 9;
+    uint32 pos = 12;
+    uint32 level = 1;
+    uint32 dressed_skin_id = 5;
+}

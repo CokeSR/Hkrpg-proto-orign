@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message RotatorEnergyInfo {
+    uint32 max_num = 6;
+    uint32 cur_num = 7;
+}

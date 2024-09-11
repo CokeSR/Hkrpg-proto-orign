@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "RotatorEnergyInfo.proto";
+
+message UpdateEnergyScNotify {
+    RotatorEnergyInfo energy_info = 12;
+}

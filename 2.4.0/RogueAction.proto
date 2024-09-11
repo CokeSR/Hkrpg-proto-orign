@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonBuffSelectInfo.proto";
+import "RogueMiracleSelectInfo.proto";
+import "RogueBonusSelectInfo.proto";
+
+
+message RogueAction {
+    oneof action {
+        RogueCommonBuffSelectInfo buff_select_info = 820;
+        RogueMiracleSelectInfo miracle_select_info = 527; // REMOVED???
+        RogueBonusSelectInfo bonus_select_info = 240;
+    }
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message RefreshTriggerByClientScRsp {
+    uint32 trigger_entity_id = 3;
+    string trigger_name = 13;
+    bool refresh_trigger = 2;
+    uint32 retcode = 7;
+}

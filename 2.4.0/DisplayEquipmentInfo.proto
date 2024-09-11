@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+message DisplayEquipmentInfo {
+    uint32 exp = 3;
+    uint32 rank = 1;
+    uint32 tid = 11;
+    uint32 promotion = 5;
+    uint32 level = 7;
+}

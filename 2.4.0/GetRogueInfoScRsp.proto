@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "RogueInfo.proto";
+
+message GetRogueInfoScRsp {
+    uint32 retcode = 7;
+    RogueInfo rogue_info = 15;
+}

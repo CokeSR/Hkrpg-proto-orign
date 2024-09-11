@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message SceneMonster {
+    uint32 max_hp = 14;
+    uint32 monster_id = 10;
+    uint32 cur_hp = 15;
+}

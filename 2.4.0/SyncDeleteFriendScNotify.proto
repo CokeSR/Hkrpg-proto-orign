@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message SyncDeleteFriendScNotify {
+    uint32 uid = 12;
+}

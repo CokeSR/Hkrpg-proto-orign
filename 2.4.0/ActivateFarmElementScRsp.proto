@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message ActivateFarmElementScRsp {
+    uint32 world_level = 8;
+    uint32 entity_id = 7;
+    uint32 retcode = 12;
+}

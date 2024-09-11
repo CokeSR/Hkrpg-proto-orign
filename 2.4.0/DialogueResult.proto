@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ItemList.proto";
+
+message DialogueResult {
+    uint32 HFHKBMGBJAN = 2;
+    repeated uint32 event_ids = 10;
+    ItemList item_result = 13;
+}

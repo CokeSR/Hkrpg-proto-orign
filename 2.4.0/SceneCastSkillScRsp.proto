@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "SceneBattleInfo.proto";
+
+message SceneCastSkillScRsp {
+    uint32 attacked_group_id = 6;
+    uint32 retcode = 2;
+    SceneBattleInfo battle_info = 9;
+}

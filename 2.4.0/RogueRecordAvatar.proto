@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "AvatarType.proto";
+
+message RogueRecordAvatar {
+    AvatarType avatar_type = 9;
+	uint32 level = 13;
+    uint32 slot = 14;
+    uint32 id = 15;
+}

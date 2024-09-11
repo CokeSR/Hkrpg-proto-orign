@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "ChessRogueMiracleData.proto";
+
+message ChessRogueMiracleInfo {
+    ChessRogueMiracleData miracle_data = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "UnlockedMusic.proto";
+
+message UnlockBackGroundMusicScRsp {
+	repeated uint32 unlocked_ids = 12;
+	uint32 retcode = 8;
+	repeated UnlockedMusic music_list = 3;
+}

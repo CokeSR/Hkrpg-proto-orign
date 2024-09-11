@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message ChessRogueNousValue {
+    uint32 value = 6;
+}

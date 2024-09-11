@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+
+import "PlayerCollectionInfo.proto";
+
+message PlayerRecordInfo {
+    uint32 OOIOMMKOIAE = 15;
+    uint32 DKPLJPHGDMB = 7;
+    uint32 HNICFKBEKJO = 14;
+    uint32 INMEAGINKPN = 8;
+    uint32 CPIKKMDOKHA = 3;
+    uint32 MGDIMDLPOGA = 4;
+    uint32 BIOJHIBFELK = 10;
+    PlayerCollectionInfo collection_info = 2;
+    uint32 MFMOAJONBBF = 12;
+}

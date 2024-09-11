@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ItemCostList.proto";
+
+message RogueBuffEnhanceInfo {
+    ItemCostList item_cost_list = 2;
+    float unk_float = 3;
+    uint32 buff_id = 12;
+}

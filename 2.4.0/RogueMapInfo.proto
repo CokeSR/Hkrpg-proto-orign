@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "RogueRoom.proto";
+
+message RogueMapInfo {
+	repeated RogueRoom room_list = 4;
+	uint32 cur_site_id = 2;
+	uint32 cur_room_id = 13;
+	uint32 map_id = 5;
+	uint32 area_id = 1;
+}

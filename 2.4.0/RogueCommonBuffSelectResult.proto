@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message RogueCommonBuffSelectResult {
+    uint32 buff_id = 4;
+}

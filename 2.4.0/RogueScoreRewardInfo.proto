@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+message RogueScoreRewardInfo {
+	uint32 pool_id = 4;
+	bool pool_refreshed = 15;
+	repeated uint32 has_taken_reward = 13;
+	uint32 score = 12;
+	bool has_taken_initial_score = 7;
+	int64 begin_time = 1; // FEDDDLLKOLI
+	int64 end_time = 10; // LGNPKHJFGFO
+}

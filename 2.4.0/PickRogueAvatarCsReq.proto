@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message PickRogueAvatarCsReq {
+    repeated uint32 base_avatar_list = 3;
+}

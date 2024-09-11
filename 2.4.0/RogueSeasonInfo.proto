@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message RogueSeasonInfo {
+	int64 begin_time = 6;
+	uint32 season_id = 3;
+	int64 end_time = 10;
+}

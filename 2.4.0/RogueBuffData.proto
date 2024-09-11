@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message RogueBuffData {
+    uint32 level = 3;
+	uint32 buff_id = 7;
+}

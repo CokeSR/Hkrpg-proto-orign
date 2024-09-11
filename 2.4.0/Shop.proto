@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "Goods.proto";
+
+message Shop {
+    uint32 city_level = 5;
+    int64 begin_time = 6;
+    int64 end_time = 15;
+    repeated Goods goods_list = 8;
+    uint32 city_exp = 7;
+    uint64 city_taken_level_reward = 2;
+    uint32 shop_id = 14;
+}

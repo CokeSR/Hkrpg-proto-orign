@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "DisplayRecordType.proto";
+
+message PlayerDisplaySettings {
+    bool KEACGBKOFKF = 13;
+    bool DAFHJJEDMOF = 8;
+    bool KDAKDMCGFND = 11;
+    bool BPELFJGIJID = 7;
+    bool DKLJGCEHPJL = 5;
+    DisplayRecordType EPMCKMCDIGB = 15;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message DestroyItemCsReq {
+    uint32 cur_item_count = 8;
+    uint32 item_id = 14;
+    uint32 item_count = 5;
+}

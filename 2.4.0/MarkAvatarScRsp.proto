@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message MarkAvatarScRsp {
+    bool is_marked = 3;
+    uint32 avatar_id = 6;
+    uint32 retcode = 10;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+message RogueDialogueEventParam {
+    uint32 arg_id = 4;
+    float ratio = 9;
+    sint32 int_value = 5;
+    bool is_valid = 12;
+    uint32 dialogue_event_id = 7;
+}

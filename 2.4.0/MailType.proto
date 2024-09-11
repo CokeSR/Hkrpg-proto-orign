@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+enum MailType {
+  MAIL_TYPE_NORMAL = 0;
+  MAIL_TYPE_STAR = 1;
+}

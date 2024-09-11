@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message RelicRecommendScRsp {
+    uint32 avatar_id = 11;
+    uint32 retcode = 6;
+}

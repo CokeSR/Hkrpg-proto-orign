@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "DisplayAvatar.proto";
+
+message SetDisplayAvatarScRsp {
+    uint32 retcode = 3;
+    repeated DisplayAvatar display_avatar_list = 2;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "ChatType.proto";
+import "MsgType.proto";
+
+message SendMsgCsReq {
+    uint32 emote = 12;
+    repeated uint32 to_uid_list = 11;
+    string text = 7;
+    MsgType msg_type = 8;
+    ChatType chat_type = 3;
+}

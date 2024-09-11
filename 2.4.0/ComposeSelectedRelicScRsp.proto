@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ItemList.proto";
+
+message ComposeSelectedRelicScRsp {
+    ItemList return_item_list = 5;
+    uint32 compose_id = 4;
+    uint32 retcode = 12;
+}

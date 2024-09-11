@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "HeroBasicType.proto";
+
+message UnlockHeroBasicTypeCsReq {
+    HeroBasicType basic_type = 10;
+}

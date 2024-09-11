@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message FirstNpcTalkInfo {
+    bool unk_bool = 14;
+    uint32 npc_id = 6;
+}

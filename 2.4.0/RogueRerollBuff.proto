@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonBuffSelectInfo.proto";
+
+message RogueRerollBuff {
+    RogueCommonBuffSelectInfo buff_select_info = 7;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ActivityScheduleInfo.proto";
+
+message GetActivityScheduleConfigScRsp {
+    repeated ActivityScheduleInfo activity_schedule_list = 15;
+    uint32 retcode = 4;
+}

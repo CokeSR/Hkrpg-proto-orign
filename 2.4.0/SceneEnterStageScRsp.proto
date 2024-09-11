@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "SceneBattleInfo.proto";
+
+message SceneEnterStageScRsp {
+    uint32 retcode = 7;
+    SceneBattleInfo battle_info = 15;
+}

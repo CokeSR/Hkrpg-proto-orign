@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+
+
+import "SceneMonsterWave.proto";
+import "BattleAvatar.proto";
+import "BattleBuff.proto";
+import "BattleEventBattleInfo.proto";
+import "BattleTargetList.proto";
+
+message SceneBattleInfo {
+    repeated SceneMonsterWave monster_wave_list = 1;
+    map<uint32, BattleTargetList> battle_target_info = 149;
+    uint32 battle_id = 14;
+    uint32 world_level = 6;
+    repeated BattleBuff buff_list = 3;
+    uint32 rounds_limit = 2;
+    uint32 logic_random_seed = 12;
+    repeated BattleAvatar battle_avatar_list = 15;
+    repeated BattleEventBattleInfo event_battle_info_list = 1965;
+    uint32 stage_id = 4;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "FriendListInfo.proto";
+
+message SyncHandleFriendScNotify {
+    uint32 uid = 13;
+    FriendListInfo handle_friend_info = 14;
+    bool handle_result = 8;
+}

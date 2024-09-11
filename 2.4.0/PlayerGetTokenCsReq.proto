@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message PlayerGetTokenCsReq {
+    string account_uid = 11;
+    uint32 platform_type = 15;
+    string token = 1;
+}

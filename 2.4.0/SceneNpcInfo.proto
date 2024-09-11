@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "NpcExtraInfo.proto";
+
+message SceneNpcInfo {
+    NpcExtraInfo extra_info = 7;
+    uint32 npc_id = 15;
+}

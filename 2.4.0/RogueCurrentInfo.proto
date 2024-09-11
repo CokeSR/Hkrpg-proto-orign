@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+
+
+import "RogueAeon.proto";
+import "RogueAvatarInfo.proto";
+import "RogueMiracleInfo.proto";
+import "RogueBuffInfo.proto";
+import "RogueCommonPendingAction.proto";
+import "RogueVirtualItemInfo.proto";
+import "RogueStatus.proto";
+import "RogueMapInfo.proto";
+
+message RogueCurrentInfo {
+	// PAOGLFPDNOA JGHAOFCGEMP = 3;
+	RogueStatus status = 12;
+	RogueVirtualItemInfo rogue_virtual_item = 1;
+	// bool GPOIMNADJOH = 14;
+	RogueMapInfo room_map = 7;
+	RogueCommonPendingAction pending_action = 13;
+	RogueMiracleInfo rogue_miracle_info = 2;
+	RogueAvatarInfo rogue_avatar_info = 10;
+	RogueBuffInfo rogue_buff_info = 11;
+	RogueAeon rogue_aeon_info = 9;
+}

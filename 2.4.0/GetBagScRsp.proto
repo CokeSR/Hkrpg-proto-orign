@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "Relic.proto";
+import "Equipment.proto";
+import "Material.proto";
+
+message GetBagScRsp {
+    uint32 retcode = 7;
+    repeated Equipment equipment_list = 14;
+    repeated Relic relic_list = 9;
+    repeated Material material_list = 10;
+}

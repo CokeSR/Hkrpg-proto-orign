@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "Chat.proto";
+
+message GetPrivateChatHistoryScRsp {
+    uint32 sender_uid = 11;
+    uint32 to_uid = 2;
+    uint32 retcode = 5;
+    repeated Chat chat_list = 8;
+}

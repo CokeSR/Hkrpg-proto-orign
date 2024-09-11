@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ChallengeInfo.proto";
+
+message GetCurChallengeScRsp {
+    uint32 retcode = 9;
+    ChallengeInfo challenge_info = 5;
+}

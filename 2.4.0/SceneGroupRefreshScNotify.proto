@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "SceneGroupRefreshInfo.proto";
+
+message SceneGroupRefreshScNotify {
+    repeated SceneGroupRefreshInfo group_refresh_info = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message SetFriendMarkScRsp {
+	bool is_set_mark = 8;
+	uint32 retcode = 6;
+	uint32 uid = 2;
+}

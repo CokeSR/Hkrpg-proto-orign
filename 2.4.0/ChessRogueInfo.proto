@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "LineupInfo.proto";
+import "SceneInfo.proto";
+
+message ChessRogueInfo {
+    LineupInfo lineup = 7;
+    SceneInfo scene = 5;
+}

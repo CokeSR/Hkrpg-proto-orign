@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "ItemList.proto";
+
+message ComposeItemScRsp {
+    uint32 count = 3;
+    uint32 retcode = 10;
+    ItemList return_item_list = 14;
+    uint32 compose_id = 15;
+}

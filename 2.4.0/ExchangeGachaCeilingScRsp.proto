@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "ItemList.proto";
+import "GachaCeiling.proto";
+
+message ExchangeGachaCeilingScRsp {
+    ItemList transfer_item_list = 8;
+    uint32 avatar_id = 1;
+    uint32 retcode = 3;
+    GachaCeiling gacha_ceiling = 9;
+    uint32 gacha_type = 5;
+}

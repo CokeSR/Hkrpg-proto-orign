@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+// import "ItemCostList.proto";
+
+message RogueAvatarInfo {
+    repeated uint32 base_avatar_id_list = 9;
+}

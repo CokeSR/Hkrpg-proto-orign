@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "EnteredSceneInfo.proto";
+
+message GetEnteredSceneScRsp {
+    repeated EnteredSceneInfo entered_scene_info = 9;
+    uint32 retcode = 6;
+}

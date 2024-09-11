@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+
+import "PlayerSettingInfo.proto";
+
+message GetBasicInfoScRsp {
+    int64 next_recover_time = 6;
+    uint32 week_cocoon_finished_count = 10;
+    int64 last_set_nickname_time = 15;
+    uint32 gender = 14;
+    PlayerSettingInfo player_setting_info = 4;
+    uint32 exchange_times = 11;
+    uint32 gameplay_birthday = 8;
+    bool is_gender_set = 9;
+    uint32 cur_day = 2;
+    uint32 retcode = 12;
+}

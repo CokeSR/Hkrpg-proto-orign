@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message RelicParam {
+    uint32 relic_unique_id = 11;
+    uint32 slot = 10;
+}

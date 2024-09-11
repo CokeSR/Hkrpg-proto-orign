@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ItemCostList.proto";
+
+message ExpUpRelicCsReq {
+    uint32 relic_unique_id = 15;
+    ItemCostList item_cost_list = 13;
+}

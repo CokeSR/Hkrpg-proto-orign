@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+
+import "RogueBuffSelect.proto";
+import "RogueRerollBuff.proto";
+import "RogueMiracleSelect.proto";
+import "RogueBonusSelect.proto";
+
+message HandleRogueCommonPendingActionScRsp {
+    uint32 retcode = 9;
+    uint32 action_unique_id = 5;
+    uint32 times2 = 7;
+    RogueBuffSelect rogue_buff_select = 1689; // idk
+    RogueRerollBuff rogue_reroll_buff = 952; // idk
+    RogueMiracleSelect miracle_select = 1077;
+    RogueBonusSelect bonus_select = 157; // idk
+}

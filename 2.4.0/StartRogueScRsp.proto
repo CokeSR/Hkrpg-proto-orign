@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "RogueInfo.proto";
+import "LineupInfo.proto";
+import "SceneInfo.proto";
+
+message StartRogueScRsp {
+    LineupInfo lineup = 7;
+    uint32 retcode = 6;
+    RogueInfo rogue_info = 12;
+    SceneInfo scene = 2;
+}

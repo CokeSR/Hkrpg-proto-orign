@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "DisplayAvatar.proto";
+
+message DisplayAvatarVec {
+    repeated DisplayAvatar display_avatar_list = 8;
+    bool is_display = 13;
+}

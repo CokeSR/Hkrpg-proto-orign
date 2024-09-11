@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "RogueActionResult.proto";
+import "RogueCommonActionResultDisplayType.proto";
+
+message SyncRogueCommonActionResultScNotify {
+    uint32 rogue_version_id = 7;
+    repeated RogueActionResult action_result_list = 5;
+    RogueCommonActionResultDisplayType display_type = 8;
+}

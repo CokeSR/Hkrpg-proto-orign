@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "MazeMapData.proto";
+
+message GetSceneMapInfoScRsp {
+    uint32 retcode = 7;
+    repeated MazeMapData map_list = 1;
+}

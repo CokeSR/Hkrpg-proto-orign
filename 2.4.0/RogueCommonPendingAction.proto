@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "RogueAction.proto";
+
+message RogueCommonPendingAction {
+	RogueAction rogue_action = 12;
+	uint32 unique_id = 5;
+}

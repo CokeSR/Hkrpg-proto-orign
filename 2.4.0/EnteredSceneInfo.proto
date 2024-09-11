@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message EnteredSceneInfo {
+    uint32 floor_id = 11;
+    uint32 plane_id = 6;
+}

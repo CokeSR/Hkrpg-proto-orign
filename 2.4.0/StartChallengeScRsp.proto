@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+
+import "ChallengeInfo.proto";
+import "LineupInfo.proto";
+import "SceneInfo.proto";
+import "ChallengeExtInfo.proto";
+
+message StartChallengeScRsp {
+    repeated LineupInfo lineup_list = 14;
+    ChallengeExtInfo ext_info = 12;
+    SceneInfo scene = 11;
+    ChallengeInfo challenge_info = 8;
+    uint32 retcode = 7;
+}

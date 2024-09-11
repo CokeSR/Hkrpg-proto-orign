@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message ChessRogueReRollDiceCsReq {
+    uint32 entity_id = 14;
+}

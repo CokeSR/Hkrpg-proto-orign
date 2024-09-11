@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message ChessRogueSelectCellCsReq {
+    uint32 cell_id = 2;
+}

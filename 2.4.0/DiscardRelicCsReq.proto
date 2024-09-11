@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message DiscardRelicCsReq {
+    bool is_discard = 9;
+    repeated uint32 relic_id_list = 15;
+}

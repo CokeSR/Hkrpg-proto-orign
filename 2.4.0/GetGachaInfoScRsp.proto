@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "GachaInfo.proto";
+
+message GetGachaInfoScRsp {
+    uint32 retcode = 14;
+    repeated GachaInfo gacha_info_list = 12;
+    uint32 gacha_random = 15;
+}

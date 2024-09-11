@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "HeroBasicType.proto";
+import "ItemList.proto";
+
+message UnlockHeroBasicTypeScRsp {
+    repeated uint32 unlocked_basic_types = 12;
+    uint32 retcode = 3;
+    HeroBasicType basic_type = 8;
+    ItemList reward = 1;
+}

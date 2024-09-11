@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message ChessRogueItemInfo {
+    map<uint32, uint32> items = 4;
+}

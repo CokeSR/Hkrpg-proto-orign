@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+
+
+import "PlatformType.proto";
+import "PlayerRecordInfo.proto";
+import "PlayerDisplaySettings.proto";
+import "DisplayAvatarDetailInfo.proto";
+
+message PlayerDetailInfo {
+	bool is_banned = 11;
+    uint32 world_level = 6;
+    PlayerDisplaySettings display_settings = 1265;
+    uint32 head_icon = 12;
+    string signature = 4;
+    repeated DisplayAvatarDetailInfo display_avatar_list = 8;
+    repeated DisplayAvatarDetailInfo assist_avatar_list = 1854;
+    PlatformType platform_type = 5;
+    PlayerRecordInfo record_info = 13;
+    uint32 uid = 9;
+    uint32 level = 14;
+    string nickname = 2;
+    bool show_display_avatars = 1;
+}

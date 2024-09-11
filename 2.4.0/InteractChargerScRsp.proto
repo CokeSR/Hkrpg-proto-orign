@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "ChargerInfo.proto";
+import "RotatorEnergyInfo.proto";
+
+message InteractChargerScRsp {
+	uint32 retcode = 14;
+	ChargerInfo charger_info = 6;
+	RotatorEnergyInfo energy_info = 12;
+}

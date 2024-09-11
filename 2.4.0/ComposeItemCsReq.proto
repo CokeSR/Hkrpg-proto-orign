@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ItemCostList.proto";
+
+message ComposeItemCsReq {
+    uint32 count = 4;
+    ItemCostList compose_item_list = 8;
+    uint32 compose_id = 9;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "RotaterData.proto";
+
+message RemoveRotaterCsReq {
+	RotaterData rotater_data = 6;
+}

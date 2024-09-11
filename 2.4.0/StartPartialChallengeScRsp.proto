@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "ChallengeInfo.proto";
+import "LineupInfo.proto";
+import "SceneInfo.proto";
+
+message StartPartialChallengeScRsp {
+    LineupInfo lineup = 3;
+    ChallengeInfo challenge_info = 9;
+    SceneInfo scene = 1;
+    uint32 retcode = 7;
+}

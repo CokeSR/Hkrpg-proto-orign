@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+
+
+import "DisplayEquipmentInfo.proto";
+import "AvatarSkillTree.proto";
+import "DisplayRelicInfo.proto";
+
+message DisplayAvatarDetailInfo {
+    uint32 pos = 12;
+    repeated DisplayRelicInfo relic_list = 11;
+    uint32 rank = 7;
+    uint32 level = 10;
+    uint32 exp = 8;
+    uint32 promotion = 14;
+    repeated AvatarSkillTree skilltree_list = 2;
+    DisplayEquipmentInfo equipment = 5;
+    uint32 avatar_id = 9;
+    uint32 dressed_skin_id = 4;
+    repeated uint32 all_path_unlocked_special_point_id_list = 1;
+    repeated AvatarSkillTree all_path_special_skilltree_list = 3;
+}

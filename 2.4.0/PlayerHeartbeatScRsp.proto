@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message PlayerHeartbeatScRsp {
+    uint64 server_time_ms = 15;
+    uint64 client_time_ms = 11;
+    uint32 retcode = 1;
+}

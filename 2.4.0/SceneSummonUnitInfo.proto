@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+
+message SceneSummonUnitInfo {
+    repeated string trigger_name_list = 6;
+    sint32 life_time_ms = 15;
+    uint32 caster_entity_id = 4; // KADBHDIAEOE
+    uint32 attach_entity_id = 10; // GEOEIBPBPLA
+    uint32 summon_unit_id = 14; // GEEKOBFDDCK summon_unit_id
+    uint64 create_time_ms = 12;
+
+    // uint32 KADBHDIAEOE = 4;
+    // uint32 GEOEIBPBPLA = 10;
+    // uint32 GEEKOBFDDCK = 14;
+}

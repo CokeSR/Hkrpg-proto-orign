@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "MissionCustomValueData.proto";
+
+message FinishTalkMissionScRsp {
+    uint32 sub_mission_id = 13;
+    string talk_str = 11;
+    uint32 retcode = 1;
+    repeated MissionCustomValueData custom_value_list = 12;
+}

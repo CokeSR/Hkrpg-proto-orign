@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+message RogueHandbookAeon {
+	uint32 exp = 13;
+	uint32 level = 8;
+	uint32 aeon_id = 12;
+	repeated uint32 taken_reward_list = 15; // NJFMOEKGAHN
+	uint32 max_level = 5;
+	repeated uint32 archive_unlock_list = 2; // FODOAOKIBLG
+}

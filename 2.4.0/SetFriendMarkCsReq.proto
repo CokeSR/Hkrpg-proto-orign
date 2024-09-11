@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message SetFriendMarkCsReq {
+	bool is_set_mark = 6;
+	uint32 uid = 11;
+}

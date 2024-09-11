@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message ServerPrefs {
+    bytes data = 15;
+    uint32 server_prefs_id = 12;
+}

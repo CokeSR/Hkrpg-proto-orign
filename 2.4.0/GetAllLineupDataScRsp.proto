@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "LineupInfo.proto";
+
+message GetAllLineupDataScRsp {
+    uint32 retcode = 15;
+    uint32 cur_index = 4;
+    repeated LineupInfo lineup_list = 3;
+}

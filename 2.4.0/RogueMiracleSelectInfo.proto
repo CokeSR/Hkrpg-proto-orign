@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message RogueMiracleSelectInfo {
+	uint32 JDDLGDNOIEC = 10;
+	// CMHBBMOKJJB EOIFGPMGFGJ = 11;
+	repeated uint32 miracle_info_remote = 12;
+	repeated uint32 miracle_info = 15;
+}

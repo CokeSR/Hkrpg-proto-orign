@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message PlayBackGroundMusicCsReq {
+    uint32 play_music_id = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "SceneInfo.proto";
+
+message GetCurSceneInfoScRsp {
+    uint32 retcode = 5;
+    SceneInfo scene = 3;
+}

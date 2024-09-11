@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message InteractPropScRsp {
+    uint32 retcode = 11;
+    uint32 prop_state = 2;
+    uint32 prop_entity_id = 10;
+}

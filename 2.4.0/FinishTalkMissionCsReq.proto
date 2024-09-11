@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "MissionCustomValueData.proto";
+
+message FinishTalkMissionCsReq {
+    string talk_str = 1;
+    repeated MissionCustomValueData custom_value_list = 9;
+    uint32 sub_mission_id = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "MotionInfo.proto";
+
+message SceneEntityMoveScNotify {
+    uint32 entry_id = 13;
+    uint32 entity_id = 11;
+    uint32 client_pos_version = 10;
+    MotionInfo motion = 4;
+}

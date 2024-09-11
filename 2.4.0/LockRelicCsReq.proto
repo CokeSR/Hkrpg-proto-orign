@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message LockRelicCsReq {
+    repeated uint32 relic_id_list = 12;
+    bool is_protected = 4;
+}

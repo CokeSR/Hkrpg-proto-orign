@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "ServerPrefs.proto";
+
+message UpdateServerPrefsDataCsReq {
+    ServerPrefs server_prefs = 4;
+}

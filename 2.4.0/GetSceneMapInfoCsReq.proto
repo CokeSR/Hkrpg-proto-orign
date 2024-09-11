@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message GetSceneMapInfoCsReq {
+    repeated uint32 entry_id_list = 15;
+}

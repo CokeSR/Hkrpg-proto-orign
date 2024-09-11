@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message SceneCastSkillMpUpdateScNotify {
+    uint32 attacked_group_id = 5;
+    uint32 mp = 4;
+}

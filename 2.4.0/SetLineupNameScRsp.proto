@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message SetLineupNameScRsp {
+    uint32 index = 9;
+    uint32 retcode = 5;
+    string name = 8;
+}

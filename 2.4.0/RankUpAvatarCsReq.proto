@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ItemCostList.proto";
+
+message RankUpAvatarCsReq {
+    uint32 rank = 1;
+    ItemCostList item_cost_list = 2;
+    uint32 avatar_id = 12;
+}

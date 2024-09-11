@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ContentPackageInfo.proto";
+
+message ContentPackageData {
+    repeated ContentPackageInfo content_package_list = 13;
+    uint32 cur_content_id = 11;
+}

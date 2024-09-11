@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message TextJoinInfo {
+	uint32 text_item_id = 7;
+	uint32 text_item_config_id = 10;
+}

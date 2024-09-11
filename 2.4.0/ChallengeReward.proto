@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message ChallengeReward {
+    uint64 taken_challenge_reward = 5;
+    uint32 group_id = 6;
+}

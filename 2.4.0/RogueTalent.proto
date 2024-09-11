@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "RogueTalentStatus.proto";
+import "RogueUnlockProgress.proto";
+
+message RogueTalent {
+    RogueTalentStatus status = 7;
+    repeated RogueUnlockProgress unlock_progress_list = 5;
+    uint32 talent_id = 12;
+}

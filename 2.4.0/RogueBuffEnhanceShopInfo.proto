@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "RogueBuffEnhanceInfo.proto";
+
+message RogueBuffEnhanceShopInfo {
+    repeated RogueBuffEnhanceInfo buff_info = 7;
+}

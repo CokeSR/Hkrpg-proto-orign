@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "PlayerDetailInfo.proto";
+
+message GetPlayerDetailInfoScRsp {
+    uint32 retcode = 8;
+    PlayerDetailInfo player_detail_info = 14;
+}

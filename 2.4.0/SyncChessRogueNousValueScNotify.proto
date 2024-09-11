@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "ChessRogueNousValue.proto";
+
+message SyncChessRogueNousValueScNotify {
+    ChessRogueNousValue value = 8;
+}

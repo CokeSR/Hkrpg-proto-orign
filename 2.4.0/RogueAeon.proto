@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message RogueAeon {
+    uint32 unlock_aeon_enhance_num = 13;
+    bool is_unlock_enhance_buff = 3;
+    uint32 aeon_id = 10;
+}

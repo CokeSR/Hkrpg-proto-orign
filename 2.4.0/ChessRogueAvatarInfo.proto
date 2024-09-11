@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ChessRogueAvatar.proto";
+import "RogueAvatarReviveCost.proto";
+
+message ChessRogueAvatarInfo {
+    RogueAvatarReviveCost revive_cost = 3;
+    repeated ChessRogueAvatar chess_rogue_avatar = 5;
+}

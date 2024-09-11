@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "EntityBuffChangeInfo.proto";
+
+message SyncEntityBuffChangeListScNotify {
+    repeated EntityBuffChangeInfo entity_buff_info_list = 10;
+}

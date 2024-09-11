@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "BattleEventInitedData.proto";
+
+message BattleEventBattleInfo {
+    uint32 battle_event_id = 1;
+    BattleEventInitedData status = 2;
+}

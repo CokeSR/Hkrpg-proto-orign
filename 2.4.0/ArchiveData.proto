@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "RelicArchive.proto";
+import "MonsterArchive.proto";
+
+message ArchiveData {
+    // repeated uint32 archive_missing_avatar_id_list = 2; // isnt used
+    // repeated uint32 archive_missing_equipment_id_list = 14; // isnt used
+    repeated uint32 archive_equipment_id_list = 2;
+    repeated MonsterArchive archive_monster_id_list = 11;
+    repeated RelicArchive relic_list = 12;
+}

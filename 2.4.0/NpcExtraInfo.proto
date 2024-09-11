@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "NpcRogueInfo.proto";
+
+message NpcExtraInfo {
+    NpcRogueInfo rogue_info = 7;
+}

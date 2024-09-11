@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message DoGachaInRollShopCsReq {
+  uint32 roll_shop_id = 13;
+  uint32 BBJIJINJAFK = 6;
+	uint32 gacha_random  = 14;
+}

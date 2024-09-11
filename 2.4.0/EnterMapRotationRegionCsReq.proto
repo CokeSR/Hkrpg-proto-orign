@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "MotionInfo.proto";
+
+message EnterMapRotationRegionCsReq {
+    MotionInfo motion = 14;
+}

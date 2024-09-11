@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "StartChallengeStoryInfo.proto";
+
+message StartChallengeCsReq {
+	uint32 challenge_id = 3;
+    StartChallengeStoryInfo ext_info = 2;
+    repeated uint32 first_half_lineup = 5;
+    repeated uint32 second_half_lineup = 12;
+}

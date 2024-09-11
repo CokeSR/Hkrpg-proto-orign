@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message RogueVirtualItemInfo {
+    uint32 rogue_coin = 3; // could be 5, 7 or 12
+}

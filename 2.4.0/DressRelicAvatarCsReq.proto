@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "RelicParam.proto";
+
+message DressRelicAvatarCsReq {
+    repeated RelicParam param_list = 4;
+    uint32 avatar_id = 1;
+}

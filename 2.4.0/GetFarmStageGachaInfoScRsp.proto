@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "FarmStageGachaInfo.proto";
+
+message GetFarmStageGachaInfoScRsp {
+    uint32 retcode = 4;
+    repeated FarmStageGachaInfo farm_stage_gacha_info_list = 5;
+}

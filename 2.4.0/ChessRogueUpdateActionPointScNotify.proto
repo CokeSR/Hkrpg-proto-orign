@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message ChessRogueUpdateActionPointScNotify {
+    uint32 action_point = 9;
+}

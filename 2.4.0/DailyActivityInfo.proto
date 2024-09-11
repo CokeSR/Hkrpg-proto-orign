@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message DailyActivityInfo {
+	uint32 daily_active_point = 10;
+	uint32 world_level = 11;
+	uint32 level = 4;
+	bool is_has_taken = 13;
+}

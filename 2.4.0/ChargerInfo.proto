@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message ChargerInfo {
+    uint32 group_id = 15;
+    uint32 unk_int = 7;
+}

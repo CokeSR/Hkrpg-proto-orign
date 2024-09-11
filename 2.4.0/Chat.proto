@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "MsgType.proto";
+
+message Chat {
+    uint32 emote = 11;
+    MsgType msg_type = 15;
+    uint32 sender_uid = 5;
+    uint64 sent_time = 13;
+    string text = 10;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "TextJoinInfo.proto";
+
+message TextJoinQueryScRsp {
+    repeated TextJoinInfo text_join_list = 10;
+    uint32 retcode = 3;
+}

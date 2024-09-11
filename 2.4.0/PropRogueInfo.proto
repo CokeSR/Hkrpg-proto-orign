@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message PropRogueInfo {
+    uint32 room_id = 8;
+    uint32 site_id = 6;
+}

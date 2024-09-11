@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ContentPackageStatus.proto";
+
+message ContentPackageInfo {
+    uint32 content_id = 8;
+    ContentPackageStatus status = 7;
+}

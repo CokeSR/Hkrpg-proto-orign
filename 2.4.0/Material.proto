@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message Material {
+    uint32 tid = 7;
+    uint32 num = 5;
+}

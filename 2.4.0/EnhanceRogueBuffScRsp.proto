@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "RogueBuff.proto";
+
+message EnhanceRogueBuffScRsp {
+    RogueBuff rogue_buff = 11;
+    bool is_success = 3;
+    uint32 retcode = 8;
+}

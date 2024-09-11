@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "SimpleInfo.proto";
+
+message SearchPlayerScRsp {
+    repeated SimpleInfo search_result_list = 15;
+    uint32 retcode = 7;
+}

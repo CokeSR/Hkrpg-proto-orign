@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "Mission.proto";
+
+message GetMissionStatusScRsp {
+    uint32 retcode = 11;
+    repeated uint32 finished_main_mission_id_list = 6;
+    repeated uint32 unfinished_main_mission_id_list = 12;
+    repeated uint32 disabled_main_mission_id_list = 8;
+    repeated Mission sub_mission_status_list = 14;
+    repeated Mission mission_event_status_list = 4;
+}

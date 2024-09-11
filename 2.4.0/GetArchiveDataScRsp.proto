@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ArchiveData.proto";
+
+message GetArchiveDataScRsp {
+    ArchiveData archive_data = 1;
+    uint32 retcode = 7;
+}

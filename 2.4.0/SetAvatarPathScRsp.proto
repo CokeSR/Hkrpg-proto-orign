@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "MultiPathAvatarType.proto";
+
+message SetAvatarPathScRsp {
+    MultiPathAvatarType avatar_id = 9;
+    uint32 retcode = 10;
+}

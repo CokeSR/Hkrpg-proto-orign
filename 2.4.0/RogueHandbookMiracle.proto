@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message RogueHandbookMiracle {
+	uint32 miracle_id = 2;
+	bool is_unlocked = 12;
+}

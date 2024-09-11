@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message GetFarmStageGachaInfoCsReq {
+    repeated uint32 farm_stage_gacha_id_list = 5;
+}

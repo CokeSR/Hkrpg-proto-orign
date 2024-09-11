@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "ItemCostList.proto";
+
+message RogueAvatarReviveCost {
+    ItemCostList revive_cost = 6;
+}

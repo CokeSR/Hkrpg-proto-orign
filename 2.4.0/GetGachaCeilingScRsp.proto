@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "GachaCeiling.proto";
+
+message GetGachaCeilingScRsp {
+    uint32 retcode = 15;
+    GachaCeiling gacha_ceiling = 11;
+    uint32 gacha_type = 14;
+}
