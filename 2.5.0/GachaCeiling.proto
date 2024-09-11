@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "GachaCeilingAvatar.proto";
+
+message GachaCeiling {
+    repeated GachaCeilingAvatar avatar_list = 3;
+    bool is_claimed = 15;
+    uint32 ceiling_num = 7;
+}

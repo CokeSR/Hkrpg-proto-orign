@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonBuffSelectSource.proto";
+import "ItemCostList.proto";
+import "RogueBuff.proto";
+
+message RogueBuffSelectInfo {
+	ItemCostList roll_buffs_cost = 9;
+	RogueCommonBuffSelectSource source = 6;
+	bool can_roll = 13;
+	repeated uint32 select_first_buff_list = 5;
+	// bool show_handbook_hint = 8; removed???
+	uint32 roll_buff_times = 7;
+	uint32 roll_buff_max_times = 10;
+	uint32 select_buff_source_total_count = 2;
+	uint32 select_buff_source_cur_count = 15;
+	repeated RogueBuff maze_buff_list = 12;
+	uint32 select_buff_source_hint = 1;
+}

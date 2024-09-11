@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message RogueHandbookEvent {
+	uint32 event_id = 14;
+	bool is_unlocked = 6;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "ItemList.proto";
+
+message DoGachaInRollShopScRsp {
+  uint32 retcode = 3;
+  ItemList reward = 11;
+  uint32 LEJJOJGNIHK = 14;
+  uint32 roll_shop_id = 7;
+  uint32 AFMPDBBHCHM = 6;
+}

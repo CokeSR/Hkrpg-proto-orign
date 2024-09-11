@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "GroupStateInfo.proto";
+
+message GroupStateChangeScRsp {
+    GroupStateInfo group_info = 11;
+    uint32 retcode = 6;
+}

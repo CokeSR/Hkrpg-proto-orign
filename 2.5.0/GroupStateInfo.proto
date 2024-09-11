@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+// TODO: verify player_uid and group_state
+message GroupStateInfo {
+    uint32 entry_id = 4;
+    uint32 group_id = 1;
+    uint32 player_uid = 6;
+    uint32 group_state = 3;
+}

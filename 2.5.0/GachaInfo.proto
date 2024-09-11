@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+
+import "GachaCeiling.proto";
+
+message GachaInfo {
+    uint32 current_gacha_time = 13;
+    GachaCeiling gacha_ceiling = 15;
+    repeated uint32 up_info = 2;
+    uint32 gacha_id = 11;
+    int64 begin_time = 6;
+    repeated uint32 featured = 4;
+    string history_url = 10;
+    int64 end_time = 5;
+    string detail_url = 9;
+}

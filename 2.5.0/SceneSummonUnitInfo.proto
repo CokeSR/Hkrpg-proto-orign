@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+
+message SceneSummonUnitInfo {
+    repeated string trigger_name_list = 6;
+    sint32 life_time_ms = 5;
+    uint32 caster_entity_id = 7; // KGGENGIBIAJ
+    uint32 attach_entity_id = 4; // DPAPIBILMKB
+    uint32 summon_unit_id = 9; // ILNGLEEMFCF
+    uint64 create_time_ms = 11;
+
+    // uint32 KGGENGIBIAJ = 7;
+    // uint32 DPAPIBILMKB = 4;
+    // uint32 ILNGLEEMFCF = 9;
+}

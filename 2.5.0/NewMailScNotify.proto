@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message NewMailScNotify {
+    repeated uint32 mail_id_list = 10;
+}

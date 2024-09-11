@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message SceneCastSkillCostMpScRsp {
+    uint32 attacked_group_id = 10;
+    uint32 retcode = 7;
+}

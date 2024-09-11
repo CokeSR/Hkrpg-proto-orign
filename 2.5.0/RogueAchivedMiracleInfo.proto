@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "RogueMiracle.proto";
+
+message RogueAchivedMiracleInfo {
+	uint32 total_slot_count = 10;
+	uint32 unlock_slot_count = 9;
+	repeated RogueMiracle miracle_list = 14;
+}

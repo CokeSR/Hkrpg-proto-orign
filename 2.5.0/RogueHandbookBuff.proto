@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message RogueHandbookBuff {
+    uint32 buff_id = 4;
+}

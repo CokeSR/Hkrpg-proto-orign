@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+
+
+message Gateserver {
+    string lua_url = 10;
+    string ex_resource_url = 14;
+    string asset_bundle_url = 3;
+    string ifix_url = 1113;
+    string region_name = 5;
+    string ip = 4;
+    uint32 port = 2;
+    string msg = 1192;
+    string ifix_version = 1430; // guessed
+    string mdk_res_version = 661;
+    string client_secret_key = 1808;
+    bool enable_version_update = 1;
+    bool enable_design_data_bundle_version_update = 7;
+    bool event_tracking_open = 414;
+    bool enable_android_middle_package = 593;
+    bool network_diagnostic = 1566;
+
+    /* for beta, useless on release */
+    bool enable_watermark = 1457;
+    bool close_redeem_code = 1486;
+}

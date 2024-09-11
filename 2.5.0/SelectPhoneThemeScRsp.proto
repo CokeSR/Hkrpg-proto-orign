@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message SelectPhoneThemeScRsp {
+    uint32 retcode = 7;
+    uint32 cur_phone_theme = 5;
+    uint32 NNKFBKLCDDF = 11;
+}

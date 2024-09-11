@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message RogueCommonDialogueOptionDisplayInfo {
+	float display_float_value = 7;
+	int32 display_int_value = 3;
+}

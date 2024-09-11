@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "StartChallengeStoryBuffInfo.proto";
+import "StartNewChallengeStoryBuffInfo.proto";
+
+message StartChallengeStoryInfo {
+	StartChallengeStoryBuffInfo story_buff_info = 7;
+	StartNewChallengeStoryBuffInfo new_story_buff_info = 8;
+}

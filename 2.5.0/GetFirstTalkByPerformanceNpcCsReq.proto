@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message GetFirstTalkByPerformanceNpcCsReq {
+    repeated uint32 npc_talk_list = 4;
+}

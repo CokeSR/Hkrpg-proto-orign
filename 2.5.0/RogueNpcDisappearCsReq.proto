@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message RogueNpcDisappearCsReq {
+    uint32 disappear_npc_entity_id = 11;
+}

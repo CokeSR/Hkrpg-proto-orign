@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ItemCost.proto";
+
+message UnlockSkilltreeCsReq {
+    uint32 level = 13;
+    uint32 point_id = 10;
+    repeated ItemCost item_list = 15;
+}

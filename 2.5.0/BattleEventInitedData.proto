@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "SpBarInfo.proto";
+
+message BattleEventInitedData {
+    SpBarInfo sp_bar = 2;
+}

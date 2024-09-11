@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message SyncClientResVersionCsReq {
+    uint32 client_res_version = 7;
+}

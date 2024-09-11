@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message GetRollShopInfoScRsp {
+  uint32 roll_shop_id = 15;
+  uint32 retcode = 8;
+  repeated uint32 DLPBJMPECFC = 11;
+  uint32 BBJIJINJAFK = 3; // gacha_random
+}

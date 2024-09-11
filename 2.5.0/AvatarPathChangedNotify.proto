@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "MultiPathAvatarType.proto";
+
+message AvatarPathChangedNotify {
+    MultiPathAvatarType changed_avatar_type = 8;
+    uint32 base_avatar_id = 3;
+}

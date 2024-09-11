@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "RotaterData.proto";
+import "RotatorEnergyInfo.proto";
+
+message RemoveRotaterScRsp {
+	RotaterData rotater_data = 7;
+	uint32 retcode = 15;
+	RotatorEnergyInfo energy_info = 6;
+}

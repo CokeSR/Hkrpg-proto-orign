@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "HeroBasicType.proto";
+import "Gender.proto";
+import "HeroBasicTypeInfo.proto";
+
+message GetHeroBasicTypeInfoScRsp {
+    HeroBasicType cur_basic_type = 3;
+	repeated uint32 unlocked_basic_types = 8;
+    repeated HeroBasicTypeInfo basic_type_info_list = 15;
+    Gender gender = 11;
+    uint32 retcode = 2;
+}

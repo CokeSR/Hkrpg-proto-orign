@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "FriendRecommendInfo.proto";
+
+message GetFriendRecommendListInfoScRsp {
+    repeated FriendRecommendInfo friend_recommend_list = 12;
+    uint32 retcode = 7;
+}

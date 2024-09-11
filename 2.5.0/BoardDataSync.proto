@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "HeadIcon.proto";
+
+message BoardDataSync {
+    string signature = 13;
+    repeated HeadIcon unlocked_head_icon_list = 14;
+}

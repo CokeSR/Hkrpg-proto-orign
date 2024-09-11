@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "Quest.proto";
+
+message GetQuestDataScRsp {
+    uint32 retcode = 1;
+    uint32 total_achievement_exp = 15;
+    repeated Quest quest_list = 13;
+}

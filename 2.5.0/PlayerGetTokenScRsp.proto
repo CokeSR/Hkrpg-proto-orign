@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "BlackInfo.proto";
+
+message PlayerGetTokenScRsp {
+    uint64 secret_key_seed = 5;
+    BlackInfo black_info = 12;
+    uint32 uid = 4;
+    string msg = 3;
+    uint32 retcode = 10;
+}

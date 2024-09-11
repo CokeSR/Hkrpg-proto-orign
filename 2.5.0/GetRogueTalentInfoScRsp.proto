@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "RogueTalentInfo.proto";
+
+message GetRogueTalentInfoScRsp {
+    uint32 retcode = 14;
+    RogueTalentInfo talent_info = 8;
+}

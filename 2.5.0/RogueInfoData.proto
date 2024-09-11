@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+
+import "RogueSeasonInfo.proto";
+import "RogueScoreRewardInfo.proto";
+import "RogueAeonInfo.proto";
+import "RogueCurVirtualItemInfo.proto";
+import "RogueAreaInfo.proto";
+
+message RogueInfoData {
+	RogueScoreRewardInfo rogue_score_info = 3;
+	RogueAeonInfo rogue_aeon_info = 10;
+	RogueCurVirtualItemInfo rogue_virtual_item_info = 11;
+	RogueSeasonInfo rogue_season_info = 14;
+	RogueAreaInfo rogue_area_info = 2;
+}

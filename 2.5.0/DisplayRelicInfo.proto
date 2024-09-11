@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "RelicAffix.proto";
+
+message DisplayRelicInfo {
+    uint32 exp = 9;
+    uint32 main_affix_id = 11;
+    repeated RelicAffix sub_affix_list = 15;
+    uint32 tid = 13;
+    uint32 slot = 2;
+    uint32 level = 6;
+}

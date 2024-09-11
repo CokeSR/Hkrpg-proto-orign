@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ChallengeStoryBuffInfo.proto";
+import "ChallengeBossBuffInfo.proto";
+
+message ChallengeStoryInfo {
+    ChallengeStoryBuffInfo cur_story_buffs = 1;
+    ChallengeBossBuffInfo cur_boss_buffs = 9;
+}

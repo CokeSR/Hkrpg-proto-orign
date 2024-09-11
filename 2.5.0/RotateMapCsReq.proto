@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+
+
+import "MotionInfo.proto";
+import "Vector.proto";
+
+message RotateMapCsReq {
+    message Vector4 {
+        float x = 10;
+        float w = 11;
+        float z = 13;
+        float y = 15;
+    }
+    message NewMapRot {
+        Vector vector3 = 6;
+        Vector4 vector4 = 3;
+    }
+	uint32 unk_int = 2;
+	uint32 group_id = 6;
+	MotionInfo motion = 3;
+    NewMapRot rogue_map = 11;
+}

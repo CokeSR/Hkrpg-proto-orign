@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "PlayerBasicInfo.proto";
+
+message PlayerLoginScRsp {
+    uint32 stamina = 6;
+    uint64 login_random = 13;
+    sint32 cur_timezone = 3;
+    uint32 retcode = 7;
+    PlayerBasicInfo basic_info = 5;
+    uint64 server_timestamp_ms = 15;
+}

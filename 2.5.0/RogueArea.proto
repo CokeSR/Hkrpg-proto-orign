@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+message RogueArea {
+	bool has_taken_rewards = 13;
+	uint32 cur_reach_room_num = 10;
+	uint32 rogue_area_status = 9;
+	uint32 area_id = 3;
+	uint32 rogue_status = 2;
+	uint32 map_id = 5;
+}
+  

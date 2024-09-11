@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+
+
+import "AvatarBattleInfo.proto";
+import "BattleEndReason.proto";
+import "BattleTargetList.proto";
+
+message BattleStatistics {
+  uint32 total_battle_turns = 1;
+  uint32 total_auto_turns = 2;
+  repeated uint32 avatar_id_list = 3;
+  uint32 ultra_cnt = 4;
+  double total_delay_cumulate = 5;
+  double cost_time = 6;
+  repeated AvatarBattleInfo battle_avatar_list = 7;
+  //repeated MonsterBattleInfo monster_list = 8;
+  uint32 round_cnt = 9;
+  uint32 cocoon_dead_wave = 10;
+  uint32 avatar_battle_turns = 11;
+  uint32 monster_battle_turns = 12;
+  map<string, float> custom_values = 13;
+  uint32 challenge_score = 14;
+  BattleEndReason end_reason = 19;
+  map<uint32, BattleTargetList> battle_target_info = 28;
+}

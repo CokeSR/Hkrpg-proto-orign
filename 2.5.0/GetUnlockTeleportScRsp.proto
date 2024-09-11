@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message GetUnlockTeleportScRsp {
+    repeated uint32 unlocked_teleport_list = 5;
+    uint32 retcode = 9;
+}

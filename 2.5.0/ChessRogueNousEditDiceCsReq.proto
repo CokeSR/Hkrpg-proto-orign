@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "ChessRogueNousDiceInfo.proto";
+
+message ChessRogueNousEditDiceCsReq {
+    ChessRogueNousDiceInfo dice_info = 12;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message RecallPetScRsp {
+    uint32 retcode = 14;
+    uint32 BMCOIJCMNNC = 7;
+    uint32 cur_pet_id = 13;
+}

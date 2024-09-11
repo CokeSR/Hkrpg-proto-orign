@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+message RogueMiracleDataInfo {
+	uint32 KABNOGFDKFI = 6;
+	uint32 NDPAMBJKKFD = 9;
+	uint32 miracle_id = 13;
+	uint32 NFNNOMAMNAA = 4;
+	map<uint32, uint32> JBFJGEIGGBA = 12;
+}

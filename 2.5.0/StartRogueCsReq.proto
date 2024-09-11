@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message StartRogueCsReq {
+    repeated uint32 base_avatar_id_list = 7;
+    uint32 area_id = 13;
+    uint32 buff_aeon_id = 11;
+}

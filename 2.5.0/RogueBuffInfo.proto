@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "RogueBuff.proto";
+
+message RogueBuffInfo {
+    repeated RogueBuff maze_buff_list = 8;
+}
+  

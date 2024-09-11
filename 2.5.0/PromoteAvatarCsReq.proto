@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ItemCost.proto";
+
+message PromoteAvatarCsReq {
+    uint32 base_avatar_id = 1;
+    repeated ItemCost item_list = 6;
+}

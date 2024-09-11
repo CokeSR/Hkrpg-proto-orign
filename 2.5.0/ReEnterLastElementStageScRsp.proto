@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "SceneBattleInfo.proto";
+
+message ReEnterLastElementStageScRsp {
+    uint32 stage_id = 6;
+    uint32 retcode = 5;
+    SceneBattleInfo battle_info = 13;
+}

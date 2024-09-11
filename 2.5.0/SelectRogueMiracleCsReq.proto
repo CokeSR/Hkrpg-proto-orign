@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message SelectRogueMiracleCsReq {
+	uint32 miracle_id = 3;
+}

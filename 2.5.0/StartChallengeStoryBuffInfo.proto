@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message StartChallengeStoryBuffInfo {
+  uint32 story_buff_one = 13; // ?
+  uint32 story_buff_two = 2; // ?
+}

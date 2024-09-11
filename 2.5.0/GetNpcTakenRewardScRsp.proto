@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message GetNpcTakenRewardScRsp {
+    uint32 npc_id = 14;
+    uint32 retcode = 5;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message StartNewChallengeStoryBuffInfo {
+	uint32 second_half = 3;
+	uint32 first_half = 10;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message StaminaInfoScNotify {
+    int64 next_recover_time = 5;
+    uint32 stamina = 13;
+    uint32 reserve_stamina = 2;
+    int64 next_reserve_time = 7;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message SceneGroupState {
+    bool is_default = 5;
+    uint32 state = 2;
+    uint32 group_id = 10;
+}

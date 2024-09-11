@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonPendingAction.proto";
+
+message SyncRogueCommonPendingActionScNotify {
+    RogueCommonPendingAction rogue_common_pending_action = 15;
+    uint32 rogue_version_id = 12;
+}

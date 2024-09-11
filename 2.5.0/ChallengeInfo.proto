@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+
+import "ExtraLineupType.proto";
+import "ChallengeStoryInfo.proto";
+import "ChallengeStatus.proto";
+
+message ChallengeInfo {
+    uint32 score = 14;
+    ChallengeStatus status = 1;
+    ChallengeStoryInfo ext_info = 7;
+    uint32 score_two = 5;
+    ExtraLineupType extra_lineup_type = 11;
+    uint32 challenge_id = 4;
+    uint32 round_count = 13;
+}

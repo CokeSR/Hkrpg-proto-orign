@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message ActivityScheduleInfo {
+    int64 end_time = 9;
+    uint32 activity_id = 11;
+    uint32 module_id = 12;
+    int64 begin_time = 5;
+}

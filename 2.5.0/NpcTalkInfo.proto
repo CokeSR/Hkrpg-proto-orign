@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message NpcTalkInfo {
+    uint32 npc_talk_id = 13;
+}

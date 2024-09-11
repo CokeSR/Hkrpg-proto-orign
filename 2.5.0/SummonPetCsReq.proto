@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message SummonPetCsReq {
+    uint32 summoned_pet_id = 10;
+}

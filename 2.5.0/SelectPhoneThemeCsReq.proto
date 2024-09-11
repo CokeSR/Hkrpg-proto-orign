@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message SelectPhoneThemeCsReq {
+    uint32 theme_id = 13;
+}

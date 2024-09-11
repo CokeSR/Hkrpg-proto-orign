@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "RogueMiracleDataInfo.proto";
+
+message RogueMiracleInfoData {
+	uint32 BDDANOBJMEL = 8;
+	uint32 BAILOBNCIGP = 2;
+	repeated RogueMiracleDataInfo rogue_miracle_list = 12;
+}

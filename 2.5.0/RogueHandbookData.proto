@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "RogueHandbookEvent.proto";
+import "RogueHandbookMiracle.proto";
+import "RogueHandbookBuff.proto";
+import "RogueHandbookAeon.proto";
+
+message RogueHandbookData {
+	repeated RogueHandbookEvent rogue_event = 14;
+	repeated RogueHandbookBuff buff_list = 5;
+	repeated RogueHandbookAeon rogue_aeon_list = 10;
+	repeated RogueHandbookMiracle miracle_list = 2;
+}

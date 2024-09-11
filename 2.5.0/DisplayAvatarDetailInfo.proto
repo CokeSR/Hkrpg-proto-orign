@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+
+
+import "DisplayEquipmentInfo.proto";
+import "AvatarSkillTree.proto";
+import "DisplayRelicInfo.proto";
+
+message DisplayAvatarDetailInfo {
+    uint32 pos = 5;
+    repeated DisplayRelicInfo relic_list = 13;
+    uint32 rank = 10;
+    uint32 level = 8;
+    uint32 exp = 12;
+    uint32 promotion = 6;
+    repeated AvatarSkillTree skilltree_list = 7;
+    DisplayEquipmentInfo equipment = 15;
+    uint32 avatar_id = 1;
+    uint32 dressed_skin_id = 14;
+    repeated uint32 all_path_unlocked_special_point_id_list = 999; // doesnt exist anymore???
+    repeated AvatarSkillTree all_path_special_skilltree_list = 9999; // doesnt exist anymore???
+}

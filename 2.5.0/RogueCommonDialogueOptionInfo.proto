@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonDialogueOptionDisplayInfo.proto";
+import "RogueCommonDialogueOptionResultInfo.proto";
+
+message RogueCommonDialogueOptionInfo {
+	repeated RogueCommonDialogueOptionResultInfo option_result_info = 12;
+	RogueCommonDialogueOptionDisplayInfo display_value = 11;
+	uint32 arg_id = 1;
+	uint32 option_id = 6;
+	bool is_valid = 5;
+	bool confirm = 7;
+}

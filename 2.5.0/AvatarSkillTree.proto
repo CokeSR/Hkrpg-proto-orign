@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message AvatarSkillTree {
+    uint32 point_id = 1;
+    uint32 level = 2;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+
+
+import "RogueScoreRewardInfo.proto";
+import "RogueRecordInfo.proto";
+
+message RogueFinishInfo {
+    RogueScoreRewardInfo cur_score_reward_info = 15; // may be 9
+    RogueScoreRewardInfo score_reward_info = 9; // may be 15
+    RogueRecordInfo record_info = 11;
+    uint32 area_id = 859;
+    uint32 total_score = 14;
+    bool is_win = 5; // could be 12?
+
+    // unfinished, idk those
+    uint32 reach_room_count = 508;
+    uint32 pass_room_count = 2;
+    uint32 taken_score = 4;
+    // uint32 CNIIIJODKJF = 10
+}

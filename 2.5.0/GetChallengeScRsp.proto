@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "Challenge.proto";
+import "ChallengeReward.proto";
+
+message GetChallengeScRsp {
+    repeated Challenge challenge_list = 1;
+    uint32 retcode = 10;
+    repeated ChallengeReward challenge_reward_list = 14;
+}

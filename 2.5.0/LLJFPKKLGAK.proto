@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "LANBPBBAJLM.proto";
+import "RogueSyncContextBoardEvent.proto";
+
+message LLJFPKKLGAK {
+    LANBPBBAJLM OLMCGHBDKIE = 1;
+    RogueSyncContextBoardEvent PJALJFEJGDD = 9;
+}

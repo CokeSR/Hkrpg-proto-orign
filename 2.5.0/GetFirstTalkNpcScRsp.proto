@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "FirstNpcTalkInfo.proto";
+
+message GetFirstTalkNpcScRsp {
+    repeated FirstNpcTalkInfo npc_talk_info_list = 3;
+    uint32 retcode = 4;
+}

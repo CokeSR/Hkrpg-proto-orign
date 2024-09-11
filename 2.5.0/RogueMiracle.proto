@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message RogueMiracle {
+	map<uint32, uint32> KONAGCDHKKH = 3;
+	uint32 miracle_id = 12;
+	uint32 NKBEHFHLPEF = 6; // was set to 3 in pcap
+	uint32 MMFONFFPNJM = 9;
+}

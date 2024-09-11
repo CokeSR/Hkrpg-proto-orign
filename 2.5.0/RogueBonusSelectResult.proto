@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message RogueBonusSelectResult {
+    uint32 bonus_id = 14;
+}

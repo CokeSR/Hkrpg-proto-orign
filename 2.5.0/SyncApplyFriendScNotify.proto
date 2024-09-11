@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "FriendApplyInfo.proto";
+
+message SyncApplyFriendScNotify {
+    FriendApplyInfo friend_apply_info = 6;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "DailyActivityInfo.proto";
+
+message GetDailyActiveInfoScRsp {
+    uint32 retcode = 6;
+    repeated DailyActivityInfo daily_active_level_list = 8;
+    repeated uint32 daily_active_quest_id_list = 1;
+    uint32 daily_active_point = 9;
+}

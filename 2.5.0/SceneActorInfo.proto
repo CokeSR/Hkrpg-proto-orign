@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "AvatarType.proto";
+
+message SceneActorInfo {
+    AvatarType avatar_type = 6;
+    uint32 base_avatar_id = 11;
+    uint32 uid = 2;
+    uint32 map_layer = 15;
+}

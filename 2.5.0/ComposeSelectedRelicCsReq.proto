@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "ItemCostList.proto";
+
+message ComposeSelectedRelicCsReq {
+    uint32 compose_id = 14;
+    ItemCostList compose_item_list = 10;
+    uint32 main_affix_id = 12;
+    uint32 compose_relic_id = 7;
+    uint32 count = 8;
+}

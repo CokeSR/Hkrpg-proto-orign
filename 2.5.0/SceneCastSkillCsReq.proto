@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "MotionInfo.proto";
+import "AssistMonsterWave.proto";
+
+message SceneCastSkillCsReq {
+    uint32 caster_id = 14;
+    repeated uint32 hit_target_entity_id_list = 10;
+    MotionInfo target_motion = 5;
+    uint32 attacked_group_id = 15;
+    uint32 skill_index = 4;
+    repeated AssistMonsterWave assist_monster_wave_list = 12;
+}

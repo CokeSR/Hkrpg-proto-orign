@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "RogueBuffData.proto";
+
+message ChessRogueBuffData {
+    repeated RogueBuffData buff_list = 12;
+}

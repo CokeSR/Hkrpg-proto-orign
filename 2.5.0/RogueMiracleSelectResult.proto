@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message RogueMiracleSelectResult {
+    uint32 miracle_id = 9;
+}

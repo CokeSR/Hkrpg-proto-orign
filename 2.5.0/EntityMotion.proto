@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "MotionInfo.proto";
+
+message EntityMotion {
+    MotionInfo motion = 1;
+    uint32 entity_id = 15;
+    uint32 map_layer = 11;
+}

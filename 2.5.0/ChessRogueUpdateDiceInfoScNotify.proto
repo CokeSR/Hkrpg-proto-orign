@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "ChessRogueNousDice.proto";
+
+message ChessRogueUpdateDiceInfoScNotify {
+    ChessRogueNousDice nous_dice = 5;
+}

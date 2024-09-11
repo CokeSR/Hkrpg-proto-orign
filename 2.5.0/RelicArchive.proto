@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message RelicArchive {
+	uint32 relic_id = 3;
+	uint32 slot = 8;
+}

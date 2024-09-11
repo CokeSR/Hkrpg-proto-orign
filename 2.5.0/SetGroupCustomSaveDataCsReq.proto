@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message SetGroupCustomSaveDataCsReq {
+	string group_save_data = 1;
+	uint32 entry_id = 6;
+	uint32 group_id = 11;
+}

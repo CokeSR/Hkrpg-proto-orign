@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message GetRollShopInfoCsReq {
+  uint32 roll_shop_id = 7;
+}

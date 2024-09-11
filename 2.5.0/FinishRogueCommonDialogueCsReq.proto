@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message FinishRogueCommonDialogueCsReq {
+    uint32 event_unique_id = 3;
+}  

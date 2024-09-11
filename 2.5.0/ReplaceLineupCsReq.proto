@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "ExtraLineupType.proto";
+import "LineupSlotData.proto";
+
+message ReplaceLineupCsReq {
+    uint32 index = 2;
+    ExtraLineupType extra_lineup_type = 12;
+    uint32 plane_id = 7;
+    uint32 leader_slot = 3;
+    bool is_virtual = 10;
+    repeated LineupSlotData slots = 9;
+}

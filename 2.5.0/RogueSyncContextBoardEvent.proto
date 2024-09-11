@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message RogueSyncContextBoardEvent {
+    uint32 board_event_id = 7;
+    uint32 modifier_effect_type = 9;
+}

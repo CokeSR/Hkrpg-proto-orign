@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message UpdateServerPrefsDataScRsp {
+    uint32 server_prefs_id = 5;
+    uint32 retcode = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+message PlayerDisplaySettings {
+    bool BKPACECKIIA = 6;
+    bool JCNINCCCAKL = 14;
+    bool GGODAIOHJIF = 2;
+    bool HHCGDEOCOMI = 3;
+    bool KMJDMEFGCCK = 13;
+}

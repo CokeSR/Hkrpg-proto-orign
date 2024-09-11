@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "RogueScoreRewardInfo.proto";
+
+message GetRogueInitialScoreScRsp {
+    RogueScoreRewardInfo rogue_score_info = 7;
+    uint32 retcode = 9;
+}

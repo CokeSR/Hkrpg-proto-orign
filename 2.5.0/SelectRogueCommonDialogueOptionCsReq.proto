@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message SelectRogueCommonDialogueOptionCsReq {
+	uint32 event_unique_id = 14;
+	uint32 option_id = 3;
+}

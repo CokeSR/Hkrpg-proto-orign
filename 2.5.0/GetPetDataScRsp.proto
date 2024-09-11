@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message GetPetDataScRsp {
+    repeated uint32 pet_id_list = 10;
+    uint32 retcode = 6;
+    uint32 cur_pet_id = 5;
+}

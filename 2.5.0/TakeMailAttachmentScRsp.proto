@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ItemList.proto";
+
+message TakeMailAttachmentScRsp {
+    repeated uint32 succ_mail_id_list = 12;
+    ItemList attachment = 14;
+    uint32 retcode = 15;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+
+import "ChallengeBossSingleNodeInfo.proto";
+
+// TODO: verify nodes and lineups
+message ChallengeBossInfo {
+    ChallengeBossSingleNodeInfo first_node = 1;
+    ChallengeBossSingleNodeInfo second_node = 15;
+    repeated uint32 lineup1 = 3;
+    // map<uint32, GOHIDDNLHBD> PKADBAODMOL = 6;
+    bool ACGHCDLBCGD = 13;
+    // map<uint32, NCJLKLJHJCF> NIDHAKJENJJ = 11;
+    repeated uint32 lineup2 = 12;
+}

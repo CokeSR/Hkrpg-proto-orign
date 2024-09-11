@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonDialogueInfo.proto";
+import "RogueCommonDialogueOptionInfo.proto";
+
+message RogueCommonDialogueDataInfo {
+	RogueCommonDialogueInfo dialogue_info = 1;
+	uint32 event_unique_id = 8;
+	repeated RogueCommonDialogueOptionInfo option_list = 2;
+}

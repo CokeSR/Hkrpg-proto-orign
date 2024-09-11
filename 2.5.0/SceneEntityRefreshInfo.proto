@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "SceneEntityInfo.proto";
+
+message SceneEntityRefreshInfo {
+    SceneEntityInfo add_entity = 5;
+    uint32 del_entity = 3;
+}

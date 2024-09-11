@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message EnableRogueTalentCsReq {
+    uint32 talent_id = 2;
+}

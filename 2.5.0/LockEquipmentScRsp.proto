@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message LockEquipmentScRsp {
+    uint32 retcode = 9;
+}

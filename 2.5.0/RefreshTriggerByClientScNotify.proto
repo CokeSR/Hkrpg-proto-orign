@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message RefreshTriggerByClientScNotify {
+    string trigger_name = 8;
+    repeated uint32 trigger_target_id_list = 1;
+    uint32 trigger_entity_id = 6;
+}

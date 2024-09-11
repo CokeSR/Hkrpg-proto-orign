@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message ExchangeGachaCeilingCsReq {
+    uint32 gacha_type = 3;
+    uint32 avatar_id = 13;
+}

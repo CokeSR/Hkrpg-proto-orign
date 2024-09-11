@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "ItemList.proto";
+
+message ScenePlaneEventScNotify {
+    ItemList get_item_list = 6;
+
+    //ItemList MKNFCMFLAGF = 10;
+    //ItemList DONBBMFEOGL = 9;
+    //ItemList GFFOFNGLFGM = 6;
+    //ItemList KKBNIGJGNLG = 3;
+}

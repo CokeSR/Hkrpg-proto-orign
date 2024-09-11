@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+
+
+import "SceneEntityInfo.proto";
+import "SceneGroupState.proto";
+import "SceneEntityGroupInfo.proto";
+
+message SceneInfo {
+    uint32 plane_id = 2;
+    uint32 game_mode_type = 5;
+    repeated SceneEntityInfo entity_list = 6;
+    uint32 entry_id = 13;
+    uint32 content_id = 599;
+    uint32 client_pos_version = 7;
+    repeated SceneGroupState group_state_list = 1577;
+    repeated uint32 group_id_list = 1;
+    repeated uint32 lighten_section_list = 8;
+    uint32 floor_id = 11;
+    map<string, sint32> extra_data = 1458;
+    repeated SceneEntityGroupInfo entity_group_list = 1909;
+    uint32 leader_entity_id = 14;
+    uint32 world_id = 15;
+}

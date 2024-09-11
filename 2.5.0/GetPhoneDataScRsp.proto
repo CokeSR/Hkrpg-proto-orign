@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+message GetPhoneDataScRsp {
+	uint32 cur_chat_bubble = 3;
+    repeated uint32 owned_phone_themes = 6;
+    uint32 cur_phone_theme = 2;
+    uint32 retcode = 1;
+    repeated uint32 owned_chat_bubbles = 9;
+}

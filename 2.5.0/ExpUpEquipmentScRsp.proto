@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "PileItem.proto";
+
+message ExpUpEquipmentScRsp {
+    repeated PileItem return_item_list = 5;
+    uint32 retcode = 15;
+}

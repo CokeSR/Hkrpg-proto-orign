@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "LineupInfo.proto";
+import "SceneInfo.proto";
+
+message EnterRogueMapRoomScRsp {
+    LineupInfo lineup = 14;
+    uint32 cur_site_id = 6;
+    SceneInfo scene = 3;
+    uint32 retcode = 8;
+}

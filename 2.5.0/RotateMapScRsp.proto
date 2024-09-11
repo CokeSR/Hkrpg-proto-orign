@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "MotionInfo.proto";
+
+message RotateMapScRsp {
+    uint32 retcode = 11;
+    MotionInfo motion = 4;
+    uint32 client_pos_version = 5;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message UnlockedMusic {
+    uint32 group_id = 11;
+    bool unkbool = 14;
+    uint32 id = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "ItemList.proto";
+
+message UseItemScRsp {
+    uint32 use_item_id = 13;
+    uint32 use_item_count = 12;
+    uint32 retcode = 14;
+    ItemList return_data = 4;
+}

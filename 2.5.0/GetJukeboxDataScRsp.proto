@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "UnlockedMusic.proto";
+
+message GetJukeboxDataScRsp {
+    uint32 retcode = 8;
+    uint32 playing_id = 10;
+    repeated UnlockedMusic music_list = 1;
+}

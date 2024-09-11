@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message NpcDialogueEventParam {
+    uint32 arg_id = 3;
+    uint32 rogue_dialogue_event_id = 12;
+}

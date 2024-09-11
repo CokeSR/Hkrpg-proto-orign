@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "RogueBuffEnhanceShopInfo.proto";
+
+message GetRogueBuffEnhanceInfoScRsp {
+    uint32 retcode = 2;
+    RogueBuffEnhanceShopInfo shop_info = 8;
+}

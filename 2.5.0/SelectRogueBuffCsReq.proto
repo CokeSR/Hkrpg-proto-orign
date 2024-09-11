@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message SelectRogueBuffCsReq {
+	uint32 maze_buff_id = 13;
+}

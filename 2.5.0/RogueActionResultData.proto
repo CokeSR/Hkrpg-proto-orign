@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+
+import "RogueBuffData.proto";
+import "RogueMiracleData.proto";
+import "RogueVirtualItemData.proto";
+
+message RogueActionResultData {
+	oneof result_action {
+		RogueVirtualItemData add_item_list = 4;
+		RogueVirtualItemData remove_item_list = 10;
+		RogueBuffData add_buff_list = 1884;
+		RogueBuffData remove_buff_list = 1544;
+		RogueMiracleData add_miracle_list = 11; // idk
+	}
+}

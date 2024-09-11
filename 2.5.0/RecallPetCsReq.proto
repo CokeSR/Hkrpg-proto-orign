@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message RecallPetCsReq {
+    uint32 summoned_pet_id = 8;
+}

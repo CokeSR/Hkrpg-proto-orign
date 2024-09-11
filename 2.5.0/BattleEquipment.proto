@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message BattleEquipment {
+    uint32 id = 1;
+    uint32 level = 2;
+    uint32 promotion = 3;
+    uint32 rank = 4;
+}

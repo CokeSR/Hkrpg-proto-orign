@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message SetGameplayBirthdayScRsp {
+    uint32 retcode = 13;
+    uint32 birthday = 11;
+}

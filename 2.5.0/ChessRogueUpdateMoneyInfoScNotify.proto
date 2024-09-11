@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "ChessRogueMoneyInfo.proto";
+
+message ChessRogueUpdateMoneyInfoScNotify {
+    ChessRogueMoneyInfo money_info = 12;
+}

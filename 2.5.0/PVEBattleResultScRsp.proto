@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+
+
+import "BattleEndStatus.proto";
+import "BattleAvatar.proto";
+import "ItemList.proto";
+
+message PVEBattleResultScRsp {
+  bool check_identical = 4;
+  repeated BattleAvatar battle_avatar_list = 7;
+  uint32 mismatch_turn_count = 14;
+  string res_version = 12;
+  uint32 retcode = 3; 
+  uint32 stage_id = 11;
+  uint32 battle_id = 6;
+  uint32 event_id = 15;
+  string bin_version = 10;
+  BattleEndStatus end_status = 2;
+  ItemList unk1 = 1;
+  ItemList drop_data = 5;
+  ItemList unk2 = 8;
+  ItemList unk3 = 73;
+}

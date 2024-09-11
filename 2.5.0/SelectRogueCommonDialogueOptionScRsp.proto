@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonDialogueDataInfo.proto";
+
+message SelectRogueCommonDialogueOptionScRsp {
+	bool event_has_effect = 6;
+	uint32 event_unique_id = 9;
+	uint32 option_id = 2;
+	uint32 retcode = 8;
+	repeated uint32 effect_event_id_list = 3;
+	RogueCommonDialogueDataInfo dialogue_data = 10;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "MapInfoChestType.proto";
+
+message MazeChest {
+	MapInfoChestType map_info_chest_type = 4;
+	uint32 total_amount_list = 9;
+  	uint32 unlocked_amount_list = 12;
+}

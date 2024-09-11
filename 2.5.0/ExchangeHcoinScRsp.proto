@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message ExchangeHcoinScRsp {
+    uint32 retcode = 3;
+    uint32 num = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+import "RogueMiracleInfoData.proto";
+
+message RogueMiracleInfo {
+    RogueMiracleInfoData rogue_miracle_info = 11;
+}

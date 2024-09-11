@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message MarkAvatarCsReq {
+    bool is_marked = 3;
+    uint32 avatar_id = 2;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "LineupInfo.proto";
+import "EnterSceneReason.proto";
+import "SceneInfo.proto";
+
+message EnterSceneByServerScNotify {
+    LineupInfo lineup = 14;
+    EnterSceneReason reason = 11;
+    SceneInfo scene = 7;
+}

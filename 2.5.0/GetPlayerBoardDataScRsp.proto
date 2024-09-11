@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "HeadIcon.proto";
+import "DisplayAvatarVec.proto";
+
+message GetPlayerBoardDataScRsp {
+    string signature = 13;
+    repeated HeadIcon unlocked_head_icon_list = 12;
+    repeated uint32 display_support_avatar_vec = 1;
+    uint32 current_head_icon_id = 14;
+    DisplayAvatarVec display_avatar_vec = 4;
+    uint32 retcode = 9;
+}

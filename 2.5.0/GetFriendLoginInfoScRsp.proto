@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message GetFriendLoginInfoScRsp {
+    repeated uint32 friend_uid_list = 7; // could be 9, TODO: check
+    uint32 retcode = 14;
+}   

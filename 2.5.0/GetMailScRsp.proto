@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "ClientMail.proto";
+
+message GetMailScRsp {
+    uint32 total_num = 10;
+    uint32 start = 1;
+    uint32 retcode = 14;
+    repeated ClientMail mail_list = 2;
+    bool is_end = 8;
+    repeated ClientMail notice_mail_list = 4;
+}

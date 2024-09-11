@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+
+import "ExtraLineupType.proto";
+import "LineupAvatar.proto";
+
+message LineupInfo {
+    uint32 plane_id = 10;
+    repeated LineupAvatar avatar_list = 2;
+    string name = 14;
+    uint32 index = 3;
+    uint32 leader_slot = 13;
+    ExtraLineupType extra_lineup_type = 7;
+    bool is_virtual = 15;
+    uint32 max_mp = 8;
+    uint32 mp = 6;
+}

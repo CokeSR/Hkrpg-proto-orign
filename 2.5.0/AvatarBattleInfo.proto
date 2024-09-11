@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "AvatarProperty.proto";
+import "AvatarType.proto";
+
+message AvatarBattleInfo {
+    AvatarType avatar_type = 1;
+    uint32 id = 2;
+    uint32 avatar_level = 3;
+    uint32 avatar_rank = 4;
+    uint32 avatar_promotion = 5;
+    AvatarProperty avatar_status = 6;
+}

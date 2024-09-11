@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonDialogueBasicInfo.proto";
+
+message RogueCommonDialogueInfo {
+	oneof dialogue_info {
+		RogueCommonDialogueBasicInfo dialogue_basic_info = 4;
+		// JHFNBCAKNAP KNHAHDLIAPF = 5;
+		// AGICBCNPMBF AOLAFEPHJFE = 12;
+		// LMFCCGILDOH CJFHHFCGDDA = 15;
+	}
+}

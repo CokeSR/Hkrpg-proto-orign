@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+
+import "NpcDialogueEventParam.proto";
+
+// HIACMGHPPMI
+message NpcRogueInfo {
+	bool finish_dialogue = 12;
+	map<uint32, uint32> LPFLCICNIOA = 14;
+	uint32 KIAKKDIECME = 5;
+	uint32 event_unique_id = 10;
+	bool IDOFFGNNGEM = 11;
+	bool PHDDANOOOJI = 2;
+	uint32 dialogue_id = 3;
+	uint32 event_id = 9;
+	repeated NpcDialogueEventParam dialogue_event_param_list = 15;
+}

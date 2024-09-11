@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message CurPetChangedScNotify {
+    uint32 cur_pet_id = 8;
+}

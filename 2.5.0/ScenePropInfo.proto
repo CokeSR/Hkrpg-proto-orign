@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+import "PropExtraInfo.proto";
+
+message ScenePropInfo {
+    PropExtraInfo extra_info = 5;
+    uint32 prop_state = 12;
+    uint32 prop_id = 10;
+    uint64 create_time_ms = 9;
+    repeated string trigger_name_list = 14;
+    uint32 life_time_ms = 11;
+}

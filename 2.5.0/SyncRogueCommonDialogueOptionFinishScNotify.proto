@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonDialogueDataInfo.proto";
+import "RogueCommonDialogueOptionInfo.proto";
+
+message SyncRogueCommonDialogueOptionFinishScNotify {
+	RogueCommonDialogueDataInfo dialogue_data = 13;
+	RogueCommonDialogueOptionInfo result_option_info = 12;
+	uint32 option_id = 9;
+	uint32 event_unique_id = 15;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message SceneMonsterWaveParam {
+    uint32 level = 5;
+}

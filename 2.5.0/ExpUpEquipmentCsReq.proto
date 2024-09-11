@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ItemCostList.proto";
+
+message ExpUpEquipmentCsReq {
+    uint32 equipment_unique_id = 8;
+    ItemCostList item_cost_list = 12;
+}

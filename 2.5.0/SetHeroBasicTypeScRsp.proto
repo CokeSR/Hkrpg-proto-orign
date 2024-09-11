@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "HeroBasicType.proto";
+
+message SetHeroBasicTypeScRsp {
+    HeroBasicType basic_type = 13;
+    uint32 retcode = 11;
+}

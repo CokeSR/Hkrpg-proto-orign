@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message ChallengeBossSingleNodeInfo {
+    uint32 buff_id = 3;
+    uint32 max_score = 14;
+    bool is_win = 12;
+    bool has_been_challenged = 13;
+}

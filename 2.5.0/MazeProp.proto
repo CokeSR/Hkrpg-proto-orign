@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message MazeProp {
+    uint32 state = 3;
+    uint32 group_id = 8;
+    uint32 config_id = 4;
+}

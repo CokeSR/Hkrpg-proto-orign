@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+import "RogueCommonDialogueOptionBattleResultInfo.proto";
+
+message RogueCommonDialogueOptionResultInfo {
+	oneof option_result {
+		RogueCommonDialogueOptionBattleResultInfo battle_result_info = 14;
+		//ILNKLKJEIKF NJFNJKJPNAP = 2; // 0x18 -> 24 -> RogueOptionEffectNousValueInfo, nous_result_info
+	}
+}

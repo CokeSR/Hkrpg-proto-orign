@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+
+message ChessRogueUpdateDicePassiveAccumulateValueScNotify {
+    uint32 value = 13;
+}

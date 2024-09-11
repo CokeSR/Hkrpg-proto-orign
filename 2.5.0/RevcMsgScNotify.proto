@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+
+import "ChatType.proto";
+import "MsgType.proto";
+
+message RevcMsgScNotify {
+    uint32 from_uid = 9;
+    string text = 7;
+    uint32 emote = 11;
+    MsgType msg_type = 1;
+    uint32 to_uid = 12;
+    ChatType chat_type = 10;
+}

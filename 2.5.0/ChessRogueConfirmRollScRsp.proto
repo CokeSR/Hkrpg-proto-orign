@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "ChessRogueNousDice.proto";
+
+message ChessRogueConfirmRollScRsp {
+    uint32 retcode = 11;
+    ChessRogueNousDice nous_dice = 14;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "EntityMotion.proto";
+
+message SceneEntityTeleportCsReq {
+    EntityMotion entity_motion = 11;
+    uint32 entry_id = 6;
+}

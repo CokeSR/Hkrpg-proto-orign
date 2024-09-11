@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message TakePromotionRewardCsReq {
+    uint32 base_avatar_id = 2;
+    uint32 promotion = 1;
+}

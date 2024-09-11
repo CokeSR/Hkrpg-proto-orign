@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "MissionStatus.proto";
+
+message Mission {
+    uint32 progress = 3;
+    uint32 id = 5;
+    MissionStatus status = 6;
+}

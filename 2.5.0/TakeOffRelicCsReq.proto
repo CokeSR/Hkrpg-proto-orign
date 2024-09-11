@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message TakeOffRelicCsReq {
+    repeated uint32 slot_list = 15;
+    uint32 avatar_id = 12;
+}

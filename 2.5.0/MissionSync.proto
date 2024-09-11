@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+import "Mission.proto";
+
+message MissionSync {
+	repeated uint32 main_mission_id = 1; // could be also 10 or 6
+	repeated Mission mission_list = 12;
+}

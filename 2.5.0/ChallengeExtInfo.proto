@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+
+import "ChallengeBossInfo.proto";
+
+message ChallengeExtInfo {
+	oneof challenge_ext {
+        ChallengeBossInfo boss_info = 4;
+    }
+}

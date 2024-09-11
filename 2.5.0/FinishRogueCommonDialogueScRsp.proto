@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message FinishRogueCommonDialogueScRsp {
+    uint32 retcode = 13;
+    uint32 event_unique_id = 3;
+}

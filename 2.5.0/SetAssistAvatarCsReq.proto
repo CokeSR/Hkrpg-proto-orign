@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+
+message SetAssistAvatarCsReq {
+    repeated uint32 avatar_id_list = 15;
+    uint32 avatar_id = 1;
+}

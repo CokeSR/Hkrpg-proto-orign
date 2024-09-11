@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+
+
+import "Relic.proto";
+import "Equipment.proto";
+import "Material.proto";
+
+message GetBagScRsp {
+    uint32 retcode = 9;
+    repeated Equipment equipment_list = 6;
+    repeated Relic relic_list = 10;
+    repeated Material material_list = 1;
+    repeated uint32 pet_list = 2;
+}
+
+
+/*
+    repeated Material material_list = 1;
+    repeated uint32 IKHICOMCDHP = 2;
+    uint32 GEIDCJNJMMA = 3;
+    repeated IPCFFJHAIJG DEADFEMNDNK = 4;
+    repeated PileItem IINHLLJEKCD = 5;
+    repeated Equipment equipment_list = 6;
+    repeated uint32 KJIBMEFIBEN = 7;
+    repeated KOEDFPCCPCH JLKDHMEECJM = 8;
+    uint32 retcode = 9;
+    repeated Relic relic_list = 10;
+    repeated Material IBIGDPLHFKC = 11;
+    repeated uint32 NGEGMHAHGLM = 12;
+    repeated LGLODNDHIJB FLNJICHOKAC = 13;
+    repeated LGLODNDHIJB EPBIBAOBEOJ = 15;
+*/
